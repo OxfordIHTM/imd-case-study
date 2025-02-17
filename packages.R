@@ -4,6 +4,3 @@
 library(quarto)
 library(yaml)
 
-
-## Workflow testing ----
-library(testthat)
