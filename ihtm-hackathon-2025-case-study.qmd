@@ -9,7 +9,7 @@ date-format: "DD MMMM YYYY"
 
 The **Indices of Deprivation 2019 (IoD2019)** is the latest measure of local deprivation in England, developed by the Ministry of Housing, Communities and Local Government. Of these indices, the **Index of Multiple Deprivation (IMD2019)** is the primary measure, assessing relative deprivation across **seven domains**, based on 39 indicators. These domains include *income*, *employment*, *health*, *education*, *crime*, *barriers to housing and services*, and the *living environment*. The IMD ranks all **Lower-layer Super Output Areas (LSOAs)** in England by their level of deprivation, but it is a **relative measure**, meaning that a higher-ranked area is more deprived than a lower-ranked one, but not necessarily by a fixed proportion. For example, a neighbourhood ranked 100th is more deprived then a neighbourhood ranked 200th, but this does not mean it is twice as deprived.
 
-For an overview on the **Index of Multiple Deprivation 2019**, read [here](https://assets.publishing.service.gov.uk/media/5d8e26f6ed915d5570c6cc55/IoD2019_Statistical_Release.pdf).
+For an overview on the **Index of Multiple Deprivation 2019**, read [here](https://assets.publishing.service.gov.uk/media/5d8e26f6ed915d5570c6cc55/IoD2019_Statistical_Release.pdf){.external target="_blank"}.
 
 ## The context
 
@@ -41,7 +41,7 @@ Team Stray Kids | ![](https://avatars.githubusercontent.com/t/11155404?s=116&v=4
 
 ### Initial hackathon day
 
-On the starting day of the hackathon (Session 8 - 17 February 2025), each team will be assigned a set of tasks that contribute to addressing the study objectives stated above. These will be provided to each team in the form of GitHub issues in this [repository](https://github.com/OxfordIHTM/ihtm-hackathon-2025).
+On the starting day of the hackathon (Session 8 - 17 February 2025), each team will be assigned a set of tasks that contribute to addressing the study objectives stated above. These will be provided to each team in the form of GitHub issues in this [repository](https://github.com/OxfordIHTM/ihtm-hackathon-2025){.external target="_blank"}.
 
 The various GitHub issues will set tasks that contribute to addressing the study objectives as described above. Once assigned, the expectation is that the team will work through the problem-based learning (PBL) process and identify what they already know and what they don't know towards addressing the various tasks related to the study objectives. In general, these topics will include domain-specific knowledge regarding the problem and R-specific knowledge/skills needed to perform operations/calculations/analysis to produce answers to the questions. Each team then has the opportunity to ask relevant questions (including those that are related to the topic they don't know) to the hackathon facilitator and/or to fellow team mates and/or other teams and their members. This session will be a classroom session and questions are raised and answers provided for the whole set of teams to hear and learn from. The teams then take on these new knowledge and learning (or references provided by the facilitator or co-learners) and discuss it within their teams to start building solution/s to the problem-at-hand.
 
@@ -81,7 +81,7 @@ The teams and their members are allowed and to a great extent expected (whenever
 
 ### Completing the hackathon
 
-The teams have up to the close of business (5 pm UK time) of the last session of the [Open Science and Reproducible Research in R](https://oxford-ihtm.io/open-reproducible-science) lecture series to submit a final pull request on GitHub that contains all R code work that the team has written (both R script and R Markdown) for review.
+The teams have up to the close of business (5 pm UK time) of the last session of the [Open Science and Reproducible Research in R](https://oxford-ihtm.io/open-reproducible-science){.external target="_blank"} lecture series to submit a final pull request on GitHub that contains all R code work that the team has written (both R script and R Markdown) for review.
 
 [^1]: The T'Challa Trust is a charitable organisation that funds research to improve health particuarly in least developed regions of Europe and USA. The Trust was founded by the royal family of Wakanda in memory of the late King T'Challa.
 [^2]: Ranked as the world's best university for the past 10 years.
