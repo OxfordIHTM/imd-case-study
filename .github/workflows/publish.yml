@@ -38,7 +38,7 @@ jobs:
         
       - name: Render document
         run: |
-          quarto::quarto_render("cyclones.qmd")
+          quarto::quarto_render("ihtm-hackathon-2025-case-study.qmd")
         shell: Rscript {0}
       
       - name: Deploy 🚀
