@@ -1,0 +1,93 @@
+---
+title: The Index of Multiple Deprivations (IMD)
+subtitle: A Case Study
+date: "2025-02-16"
+date-format: "DD MMMM YYYY"
+---
+
+## The case
+
+The **Indices of Deprivation 2019 (IoD2019)** is the latest measure of local deprivation in England, developed by the Ministry of Housing, Communities and Local Government. Of these indices, the **Index of Multiple Deprivation (IMD2019)** is the primary measure, assessing relative deprivation across **seven domains**, based on 39 indicators. These domains include *income*, *employment*, *health*, *education*, *crime*, *barriers to housing and services*, and the *living environment*. The IMD ranks all **Lower-layer Super Output Areas (LSOAs)** in England by their level of deprivation, but it is a **relative measure**, meaning that a higher-ranked area is more deprived than a lower-ranked one, but not necessarily by a fixed proportion. For example, a neighbourhood ranked 100th is more deprived then a neighbourhood ranked 200th, but this does not mean it is twice as deprived.
+
+For an overview on the **Index of Multiple Deprivation 2019**, read [here](https://assets.publishing.service.gov.uk/media/5d8e26f6ed915d5570c6cc55/IoD2019_Statistical_Release.pdf).
+
+## The context
+
+You are a fellow of the **T'Challa Trust**[^1] of the prestigious **University of Wakanda**[^2] after graduating with an **MSc in International Health and Temperate Medicine**[^3]. The **T'Challa Fellowship** aims to provide graduates of IHTM real-world experience in global health particularly on issues that impact health in developing countries of Europe and the USA through placements with various researchers and research institutions in these countries.
+
+## The challenge
+
+**Professor Shuri**[^4], director of the MSc in International Health and Temperate Medicine of the University of Wakanda, has requested your batch of fellows to teleport to Oxford and work with your research counterparts there in processing, managing, and analysing the IMD2019 dataset. Specifically, Professor Shuri has requested that your batch aim towards the following objectives:
+
+### Cross-cutting research objectives
+
+1. Design and develop an **extract, transform, and load (ETL)** data pipeline for the IMD2019 dataset along with other relevant dataset required to achieve the rest of the research objectives;
+
+2. Perform **exploratory data analysis** of the IMD2019 dataset through appropriate summary tables and data visualisation; and,
+
+3. Map the **spatial distribution** of the index of multiple deprivation 2019.
+
+## The brief
+
+The fellows have been grouped into five (5) teams[^5]:
+
+**Team Name** | **Team Avatar** | **Team Members**
+:--- | :---: | :---
+Team Blackpink | ![](https://avatars.githubusercontent.com/t/11155387?s=116&v=4) | Hao, Angela, Reem
+Team BTS | ![](https://avatars.githubusercontent.com/t/11155381?s=116&v=4) | Fona, Nyasha, Seiza, Madinat
+Team EXO | ![](https://avatars.githubusercontent.com/t/11155408?s=116&v=4) | Ayiila, Sinnah, Erica, Simon
+Team Seventeen | ![](https://avatars.githubusercontent.com/t/11155405?s=116&v=4) | Indri, Dulanjalee, Tumi, Ajami
+Team Stray Kids | ![](https://avatars.githubusercontent.com/t/11155404?s=116&v=4) | Nashwa, Phyllis, Alaa, Onesmus
+
+### Initial hackathon day
+
+On the starting day of the hackathon (Session 8 - 17 February 2025), each team will be assigned a set of tasks that contribute to addressing the study objectives stated above. These will be provided to each team in the form of GitHub issues in this [repository](https://github.com/OxfordIHTM/ihtm-hackathon-2025).
+
+The various GitHub issues will set tasks that contribute to addressing the study objectives as described above. Once assigned, the expectation is that the team will work through the problem-based learning (PBL) process and identify what they already know and what they don't know towards addressing the various tasks related to the study objectives. In general, these topics will include domain-specific knowledge regarding the problem and R-specific knowledge/skills needed to perform operations/calculations/analysis to produce answers to the questions. Each team then has the opportunity to ask relevant questions (including those that are related to the topic they don't know) to the hackathon facilitator and/or to fellow team mates and/or other teams and their members. This session will be a classroom session and questions are raised and answers provided for the whole set of teams to hear and learn from. The teams then take on these new knowledge and learning (or references provided by the facilitator or co-learners) and discuss it within their teams to start building solution/s to the problem-at-hand.
+
+The expected output per team after the initial hackathon day is to at least have a list of steps/tasks that the team plan/aim to do in order to solve/address the question it has been assigned. This list can be outlined as a response/comment to the original issue assigned to the team via GitHub. The list should include further lines of enquiry/study that the team would like to go through in support of the steps/tasks it aims to complete.
+
+### Working as a team and contributing individually
+
+Once the teams start working on R code of the steps/tasks they aim to undertake to address the study objectives, the expectation is that each team member will be given the chance to be lead analyst and write code on behalf of their team on their own branches created from the main branch of this repository/project consistent with the steps/tasks that the team has outlined to do. At each step, each individual member will write and run their own R code locally to verify that their code is running without errors (correct syntax) and that the code is producing the expected and needed output for the next step/task. Each individual team member can also decide to commit and push their code solution for a step/task as a way to have the automated checks built-in to the system verify code syntax. Once one or more team members have come up with code that works and have consulted this with other team members, the team can decide whether the majority/all of the members agree with the solutions offered and will choose which solution/approach they prefer. If there is consensus that a solution to a step/task has been found, then the team needs to decide which of the individual team members with the agreed solution will be tasked to make a pull request (after making a commit and push) to the hackathon facilitator for their review and approval. The hackathon facilitator will then review (taking into account the automated checks) and provide feedback accordingly. Feedback can be:
+
+1. An outright and full approval of the pull request if all code syntax and output checks out;
+
+2. An approval with minor comments that the team needs to take into account moving forward into their next steps; and,
+
+3. A request for changes to address some issues detected in the code syntax and/or in the code outputs in relation to the task/step being performed.
+
+For feedback type 1 and 2, the team member who issued the pull request will have the privilege to merge their pull request to the main branch.
+
+Every time a pull request is merged to the main branch, all participants from all teams will be asked to make a **pull with rebase** to update their branches with the code that has been accepted and merged to main. This ensures that everyone's branches are in sync with changes to the main branch which in turn can help with the next steps/tasks they are working on. This process will be facilitated by the hackathon facilitator.
+
+For feedback type 3, the individual who made the pull request is expected to address the comments and re-work their code accordingly while the other members of the team continue to work on their own code to see if they can provide a more appropriate answer. The team then again reviews the solutions from team members and decides which code to now use to make either a new pull request (if another team member's solution has been chosen) or continue with existing pull request if original team member who made the initial pull request has been able to offer a corrected solution that works.
+
+### Seeking help from other teams and/or from hackathon facilitator
+
+If the team finds themselves in a position where none of the team members are able to provide a credible solution to a step/task that they are working on, they have the option to request for help/support from either another team or from the hackathon facilitator. They can make this request via the original GitHub issue thread by making a comment and then tagging the team and/or the hackathon facilitator.
+
+In this process, the requested team is expected to engage with the request as best they can. If the requesting team provides code that they have written that is not working, the requested team should comment directly on the code provided and offer corrections or solutions. If no code is provided and instead only a question is asked, then the requested team should respond to the question in such a way that will lead the requesting team to the appropriate solution rather than just providing code. It should always be the requesting team that writes the final code solution and make the pull request and not the requested team.
+
+### Subsequent in-person hackathon sessions
+
+After the initial hackathon day, two subsequent in-person hackathon sessions are on the schedule. These sessions will run similarly to the initial hackathon day with members of teams expected to interact with each other and go through the steps/tasks they have set for themselves to complete while at the same time having the hackathon facilitator available in person to address further queries that will help the teams move forward in addressing the problem they have been assigned.
+
+During these sessions, the hackathon facilitator may raise additional issues relevant to a team's problem-at-hand. These issues may either be an additional step/task that the team may have missed and/or additional outputs that will appropriately resolve the problem assigned to the team.
+
+### Continuing hackathon
+
+The teams and their members are allowed and to a great extent expected (whenever possible) to continue working on their tasks/steps even outside of the three in-person hackathon days allocated. The teams discuss and agree how they will continue and use as much of the available methods for collaboration such as scheduling team sessions independently and/or working asynchronously via GitHub issues and pull request communications. Hackathon facilitator will continue to monitor sessions done through GitHub and will be available to comment, respond, and review as needed on any day.
+
+### Completing the hackathon
+
+The teams have up to the close of business (5 pm UK time) of the last session of the [Open Science and Reproducible Research in R](https://oxford-ihtm.io/open-reproducible-science) lecture series to submit a final pull request on GitHub that contains all R code work that the team has written (both R script and R Markdown) for review.
+
+[^1]: The T'Challa Trust is a charitable organisation that funds research to improve health particuarly in least developed regions of Europe and USA. The Trust was founded by the royal family of Wakanda in memory of the late King T'Challa.
+[^2]: Ranked as the world's best university for the past 10 years.
+[^3]: The MSc in International Health and Temperate Medicine is a full-time one-year multidisciplinary and interdisciplinary course examining major challenges to the health of populations in resource-limited contexts of Europe and USA. The course is embedded within the Wakanda Centre for Temperate Medicine and Global Health and is led by Professor Shuri, sister of King T'Challa.
+[^4]: Professor Shuri is the sister of the late King T'Challa. She previously held the role of outreach ambassador for science and technology to Europe and the USA under her late brother's reign as king before taking on her current role at the University of Wakanda.
+[^5]: Professor Shuri is a big K-pop fan and these are her current favourite K-pop groups.
+
+<br/>
+<br/>
